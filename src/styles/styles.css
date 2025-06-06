@@ -136,6 +136,14 @@ header{
 
 /* Products */
 
+.products{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
 .products-cards{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -154,6 +162,24 @@ header{
     padding:20px 16px;
     margin: -14px 0px;
 }
+
+.products > button{
+    margin:32px;
+}
+
+.show-more-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:12px 72px;
+    color: var(--primary-color);
+    background-color: var(--white);
+    border: 2px solid var(--primary-color);
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+/* products text */
 
 .discont-product{
     display:flex;
@@ -238,4 +264,5 @@ header{
 
     border-radius: 50%;
 }
+
 
