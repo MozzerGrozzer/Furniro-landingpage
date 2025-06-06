@@ -103,3 +103,35 @@ header{
     width: 222px;
     height: 74px;
 }
+
+/* browse */
+
+.browse{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.browse-text{
+    text-align: center;
+    margin:50px;
+}
+
+.browse-imgs{
+    display: flex;
+    gap: 20px;
+}
+
+.browse-imgs-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.browse-imgs-content>p{
+    font-size: 24px;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin:30px;    
+}
