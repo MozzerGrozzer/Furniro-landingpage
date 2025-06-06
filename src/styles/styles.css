@@ -47,8 +47,6 @@ header{
     z-index: 0;
 }
 
-
-
 .main-text{
     display: flex;
     flex-direction: column;
@@ -134,4 +132,43 @@ header{
     text-transform: capitalize;
     font-weight: 500;
     margin:30px;    
+}
+
+/* Products */
+
+.products-cards{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.products-card-items{
+    display: grid;
+    position: relative;
+}
+
+.promotion-tag{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    
+    left: 45%;
+    top:13px;
+    color: var(--white);
+    background-color: #E97171;
+    padding:12px;
+
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50%;
+}
+
+.product-card-text{
+    background-color: var(--grey-shade);
+    width: 285px;
+    height: 145px;
+    padding:20px 16px;
+    margin: -14px 0px;
 }
