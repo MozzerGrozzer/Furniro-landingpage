@@ -41,25 +41,26 @@ header{
 
 /* main */
 
-#main-img{
+main{
+    display:flex;
+    flex-direction: column;
     position: relative;
-    width: 100%;
-    z-index: 0;
 }
 
 .main-text{
     display: flex;
     flex-direction: column;
+    
 
     background-color: var(--secondary-color);
 
     width: 643px;
     height: 443px;
 
-    bottom:4px;
-    right:1px;
+    margin:153px 60px;
 
-    margin:200px;
+    top:1px;
+    right:1px;
     
     position: absolute;
     z-index: 1;
@@ -109,6 +110,7 @@ header{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    z-index: 2;
 }
 
 .browse-text{
@@ -265,4 +267,69 @@ header{
     border-radius: 50%;
 }
 
+/* Explore more */
+
+.explore-more{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin:74px 0px;
+    padding:44px 0px;
+    background-color:var(--secondary-color);
+}
+
+.explore-more-text{
+    display:flex;
+    flex-direction: column;
+    margin:32px;
+    margin:100px;
+}
+.explore-more-text>h2{
+    font-size:40px;
+    font-weight: 700;   
+}
+
+.explore-more-text>p{
+    font-size:16px;
+    width: 386px;
+    
+}
+
+.explore-more-btn{
+    padding:12px 32px;
+    background-color: var(--primary-color);
+    color:var(--white);
+    text-transform: capitalize;
+    width: 176px;
+    height:48px;
+    margin: 25px 0px;
+}
+
+.explore-more-main-img{
+    display:flex;
+    position: relative;
+}
+
+.explore-more-main-img-content{
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+
+    top:79%;
+    left:10%;
+    padding:32px;
+
+    background-color: var(--white);
+}
+
+.explore-more-main-img-content>h5{
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.explore-more-main-img-content>p{
+    font-size: 16px;
+    font-weight: 200;
+}
 
