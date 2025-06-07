@@ -333,3 +333,80 @@ main{
     font-weight: 200;
 }
 
+/* share setup (essa vai ser o krlll) */
+
+.share-setup{
+    display: flex;
+    flex-direction:column;
+    position:relative;
+}
+
+.share-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#estante{
+    display: flex;
+    position: absolute;
+    top:1%;
+}
+
+#notebook-radio{
+    display: flex;
+    position: absolute;
+    top:130%;
+    left:9%;
+}
+
+#dinner-table{
+    display: flex;
+    position: absolute;
+    top:150%;
+    left:41%;
+}
+
+#bed-bedroom{
+    display: flex;
+    position: absolute;
+    top:190%;
+    left:63%;
+}
+
+#tabletop-wall{
+    display: flex;
+    position: absolute;
+    top:50%;
+    left:1274px;
+}
+
+#cadeira-madeira{
+    display: flex;
+    position: absolute;
+    top: 700%;
+}
+
+#nightstand-pot{
+    display: flex;
+    position: absolute;
+    top: 700%;
+    left: 14%;
+}
+
+#portrait-pot{
+    display: flex;
+    position: absolute;
+    top: 800%;
+    left:63%;
+}
+
+#kitchen-wall{
+    display: flex;
+    position: absolute;
+    top: 900%;
+    left:1210px;
+}
+
+/* o objetivo é ficar igual a do figma, e na minha tela tá legal, mas eu nunca mais quero fazer isso dnv :sob: */
