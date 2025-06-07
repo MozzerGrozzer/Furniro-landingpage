@@ -339,6 +339,7 @@ main{
     display: flex;
     flex-direction:column;
     position:relative;
+    margin-bottom:750px;
 }
 
 .share-text{
@@ -410,3 +411,84 @@ main{
 }
 
 /* o objetivo é ficar igual a do figma, e na minha tela tá legal, mas eu nunca mais quero fazer isso dnv :sob: */
+
+/* Footer */
+
+footer{
+    display:grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    margin:0px 70px;
+    padding: 32px 0px;
+
+    border-bottom: 1px solid var(--black);
+    border-top: 1px solid var(--black);
+}
+
+.footer-text-rights{
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+}
+
+.footer-text-rights>h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--black);
+}
+
+.footer-text-rights>p{
+    font-size:14px;
+    color: gray;
+}
+
+.footer-links{
+    display:flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.footer-links>a{
+    font-size:16px;
+    color:var(--black);
+    text-transform: capitalize;
+}
+
+.footer-links>p{
+    font-size:16px;
+    color:gray;
+    text-transform: capitalize;
+}
+
+.newsletter{
+    display:flex;
+    gap:12px;
+   
+}
+.newsletter>input{
+    border-bottom: 1px solid var(--black);
+}
+
+.newsletter>button{
+    border-bottom: 1px solid var(--black);
+    background-color: var(--white);
+    cursor: pointer;
+}
+
+.newsletter>button>a{
+    color:var(--black);
+    text-transform: capitalize;
+}
+
+.newsletter>button:active{
+    border-bottom: 1px solid var(--black);
+    background-color: gray;
+    cursor: pointer;
+}
+
+/* texto no fim */
+
+#all-rights{
+    font-size: 16px;
+    margin:32px;
+    font-weight: 200;
+}
