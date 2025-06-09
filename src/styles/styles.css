@@ -588,3 +588,34 @@ footer{
 .sort-by>p{
     margin: 0px 24px;
 }
+
+/* shop-pages */
+
+.shop-pages{
+    display:flex;
+    gap: 12px;
+    margin:24px;
+
+    font-size:20px;
+
+        
+}
+
+.shop-pages>a{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-color);
+    color:var(--black);
+    padding:12px;
+    border-radius:15px;
+
+    width: 60px;
+    height:60px;
+}
+
+.shop-pages>a:nth-child(1){
+    background-color: var(--primary-color);
+    color:var(--white);
+    font-weight: bold;
+}
