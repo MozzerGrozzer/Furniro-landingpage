@@ -619,3 +619,27 @@ footer{
     color:var(--white);
     font-weight: bold;
 }
+
+.guarantee{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 100px 32px;
+
+    background-color:var(--secondary-color)
+}
+
+.guarantee-content{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.guarantee-content-text> p:nth-child(1){
+    font-size: 25px;
+    font-weight: bold;
+}
+.guarantee-content-text> p:nth-child(2){
+    font-size: 20px;
+    font-weight: 300;
+    color:gray;
+}
