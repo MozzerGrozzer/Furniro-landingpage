@@ -647,23 +647,12 @@ footer{
 /* contact page */
 
 .contact{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     background-color:var(--white);
-}
-
-.contact-text{
     display:flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    padding:96px;
-    text-align: center;
 }
 
 .contact-content{
-    display:grid;
-    grid-template-columns: 1fr 1fr;
+    display:flex;
+    
 }
